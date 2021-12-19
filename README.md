@@ -1,5 +1,9 @@
 # AWS_Trial
 - [宣原AWSネットワーク構成図]
+  - 稼働中サービス一覧：
+    -  会員登録サンプル(宣原オリジナル)：http://nobuhara.tk/PHPWebApp/index.php
+    -  Wordpressサンプル(宣原オリジナル)：http://nobuhara.tk/wordpress/
+    -  mysqlツール：http://nobuhara.tk/phpMyAdmin/index.php
 <img src="https://user-images.githubusercontent.com/88915966/146662342-120131de-97ed-45cb-b110-2430983ac577.png">
 
 #### EC2
