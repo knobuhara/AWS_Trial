@@ -47,3 +47,18 @@
   - レコードタイプA：ルーティングポリシー：シンプル　トラフィックルーティング先：EC2グローバルIPアドレス
   - レコードタイプNS：ルーティングポリシー：シンプル　トラフィックルーティング先：ドメイン業者から割り当てられたnameサーバー名
   - レコードタイプSOA：ルーティングポリシー：シンプル　トラフィックルーティング先：＊＊＊
+#### ロードバランサーとSSL/TLS設定
+- 証明書の作成　Certificate Manager
+  - Domain名：nobuhara.tk
+  - Route53レコード作成（CNAMEレコード）
+- ロードバランサー設定
+  - Target groups/Target type:Instance
+  - Target groups/Protocol : Port HTTP: 80
+  - リスナー/HTTP : 80 -> Redirect to https 443
+  - リスナー/HTTPs : 443 -> Target groups指定、certificateをnobuhara.tkの証明書を指定
+- Route53設定
+  - AレコードはIPアドレス指定から、エイリアス指定に変更、ロードバランサーを指定
+  - 
+
+HTTP: 80：
+HTTP: 80
