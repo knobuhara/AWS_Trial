@@ -58,7 +58,3 @@
   - リスナー/HTTPs : 443 -> Target groups指定、certificateをnobuhara.tkの証明書を指定
 - Route53設定
   - AレコードはIPアドレス指定から、エイリアス指定に変更、ロードバランサーを指定
-  - 
-
-HTTP: 80：
-HTTP: 80
