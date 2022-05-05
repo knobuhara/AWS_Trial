@@ -30,6 +30,9 @@
   - AZゾーン：us-west-2b CIDRブロック：10.0.21.0/24
   - AZゾーン：us-west-2a CIDRブロック：10.0.20.0/24
   - AZゾーン：us-west-2a CIDRブロック：10.0.10.0/24
+- DB接続
+  - egao_aws_dev
+  - egaoadmin/ Egao241241  
 #### VPC
 - バーチャルネットワーク作成
   - IPv4 CIDR：10.0.0.0/16
